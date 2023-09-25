@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8">
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+        <title> Document </title>
+
+        <style>
+            *{
+                padding: 0px;
+                margin: 0px;
+            }
+
+            #navbar {
+                border: 1px solid black;
+                margin: 5px;
+                padding: 15px;
+                text-align: center;
+                background-color: rgb(194,236,226);
+            }
+
+            #links {
+                display: inline;
+            }
+
+            #navbar #links a{
+                text-decoration: none;
+                padding: 5px;
+                margin: 5px;
+                border: 1px solid black;
+                opacity: 0.70;
+                transition: 0.5;
+            }
+
+            #navbar #links a:hover {
+                opacity: 1;
+                transition: 0.5;
+            }
+
+            #yt {
+                background-color: red; color: black;
+            }
+
+            #fb {
+                background-color: darkblue; color: white;
+            }
+
+            #dc {
+                background-color: cadetblue; color: black;
+            }
+
+            #rd {
+                background-color: chocolate; color: white;
+            }
+
+            #x {
+                background-color: rgb(70,70,70); color: white;
+            }
+
+            .rounded {
+                border-radius: 5px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div id="navbar" class = "rounded">
+            <div id="links"><a href="https://youtube.com" class = "rounded" id = "yt">Youtube</a></div>
+            <div id="links"><a href="https://fb.com" class = "rounded" id = "fb">FaceBook</a></div>
+            <div id="links"><a href="https://discord.gg" class = "rounded" id = "dc">Discord</a></div>
+            <div id="links"><a href="https://reddit.com" class = "rounded" id = "rd">Reddit</a></div>
+            <div id="links"><a href="https://x.com" class = "rounded" id = "x">Twitter/X</a></div>
+        </div> 
+    </body>
+</html>
