@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+.banner {
+    background-image: url('coffee-beside-coffee-beans-pp-1920x1080.jpg');
+    background-position: fixed;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 750px;
+}
+
+.banner h2{
+    font-family: 'Young Serif', serif;
+    color: #D4AA7D;
+    text-shadow: 1px 1px black;
+}
+
+.banner h2 span{
+    color: #eeac43;
+    text-shadow: 1px 1px black;
+}
+
+.banner p{
+    color: #f1e6cf;
+    text-shadow: 1px 1px black;
+}
+
+.banner a {
+    padding: 10px;
+    text-decoration: none;
+    background-color: #7a694d;
+    font-family: 'Young Serif', serif;
+    text-transform: uppercase;
+    color: black;
+
+
+}
